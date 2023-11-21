@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* @media screen and (max-width: 768px) {
+  .firstsection {
+    flex-direction: column;
+    align-items: center;
+    background-size: 100%;
+  }*/
+
+/* @media screen and (max-width: 600px) {
+  .textcard {
+    font-size: 20px;
+    margin-left: 100px;
+  } */
+
+.firstsection {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.firstsection {
+  background-image: url(images/adv.jpeg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.icon {
+  height: 20px;
+  width: 30px;
+}
+.cardheader {
+  display: flex;
+  justify-content: right;
+  height: 430px;
+  width: 250px;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.textcard {
+  font-size: 40px;
+}
+button {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  margin-left: 0px;
+  margin-top: 25px;
+  margin-right: 110px;
+  padding: 4px;
+}
+.secondsection {
+  background-color: rgb(216, 212, 212);
+}
+.text {
+  margin-top: 40px;
+  font-size: 40px;
+}
+
+.secondheader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+hr {
+  border: 1px solid grey;
+  width: 70px;
+  margin: 20px 0px;
+}
+.paragraph {
+  display: flex;
+  color: grey;
+  font-size: 13px;
+  margin-bottom: 40px;
+}
+
+.icon1 {
+  height: 30px;
+  width: 30px;
+  display: inline;
+  margin-top: 9px;
+}
+.firstcard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title {
+  display: block;
+  margin-top: 20px;
+  margin-left: 5px;
+  text-align: center;
+}
+span {
+  display: block;
+  text-align: center;
+}
+.cardp {
+  margin-top: 9px;
+  margin-left: 20px;
+}
+.cardT {
+  padding-left: 15px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.icon2 {
+  height: 50px;
+  width: 50px;
+  display: inline;
+  background-color: grey;
+  margin-top: 9px;
+}
+
+.lastcard {
+  width: 350px;
+  height: 500px;
+  margin-left: 70px;
+}
+.textmarg {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.lastsection {
+  background-image: url(images/laptop.jpeg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position-x: right;
+}
+/* .container {
+  display: block;
+  width: 1080px;
+  margin: 0 auto;
+} */
