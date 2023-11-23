@@ -21,7 +21,6 @@
 h1 {
   font-size: 35px;
 }
-
 header {
   display: flex;
   justify-content: space-between;
@@ -52,15 +51,14 @@ nav a:hover {
 }
 .cardheader {
   display: flex;
-  justify-content: space-between;
-  justify-content: right;
-  margin: 130px 260px;
-  width: 250px;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  margin-left: 100px;
+  width: 50%;
+  padding: 30px;
 }
-.textcard {
-  font-size: 40px;
+.textcard h1 {
+  font-size: 80px;
 }
 button {
   font-size: 20px;
@@ -174,14 +172,11 @@ main {
     position: unset;
   }
   .firstsection .adv {
-    width: unset;
+    width: 100%;
   }
   .firstsection {
     flex-direction: column;
-  }
-  .textcard {
-    align-self: center;
-    padding-left: 250px;
+    align-items: center;
   }
 }
 .image {
@@ -189,15 +184,7 @@ main {
   height: auto;
   display: block;
 }
-@media only screen and (max-width: 500px) {
-  .cards {
-    flex-direction: column;
-  }
-  .lastcard {
-    width: unset;
-    margin-right: 150px;
-  }
-}
+
 .laptop img {
   width: unset;
   height: auto;
@@ -223,6 +210,13 @@ main {
   .lastcard {
     margin: auto;
     padding: 10px;
+  }
+  .firstsection .adv {
+    width: 100%;
+  }
+  .firstsection {
+    flex-direction: column;
+    align-items: center;
   }
 }
 .lastsection {
@@ -251,12 +245,28 @@ main {
 
   .textcard {
     align-self: center;
-    padding-left: 150px;
+  }
+  .firstsection .adv {
+    width: 100%;
+  }
+  .firstsection {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .lastcard {
+    width: unset;
+    margin-right: 150px;
   }
 }
 @media only screen and (max-width: 720px) {
   .lastcard {
     margin-left: 150px;
+  }
+  .textcard h1 {
+    font-size: 50px;
   }
 }
 @media only screen and (max-width: 430px) {
@@ -264,4 +274,7 @@ main {
     display: block;
     margin: auto;
   }
+}
+.paragraph {
+  text-align: center;
 }
